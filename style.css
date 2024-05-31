@@ -5,6 +5,7 @@ body {
     font-size: 25px;
     font-optical-sizing: auto;
     font-style: normal;
+    background-color: #f0f0f0;
 }
 
 .header {
@@ -13,60 +14,44 @@ body {
     padding: 100px;
     color: #000;
 }
+
 .content {
-    display: flex;
-    padding: 15px;
-}
-.left {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    /* max-width: 800px; */
+    margin: 0 auto;
     
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.left p{
-    max-width: 75%;
+
+.content p {
+    text-align: left;
 }
-.right {
-    text-align: right;
+
+.image-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    float:right;
 }
+
+.image-container img {
+
+    height: auto;
+    margin: 20px;
+}
+
 .footer {
     background-color: #23b0db;
     text-align: center;
     padding: 15px;
+    margin-top: 40px;
 }
+
 .quote {
     background-color: #000;
     color: #17b2ee;
     padding: 10px;
-    font-family: 'Montserrat', Monstserrat;
-}
-form {
-    margin-top: 50px;
-    text-align: left;
-}
-form label {
-    display: block;
-    margin-bottom: 50px;
-}
-form input[type="text"],
-form input[type="email"],
-form input[type="tel"] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 50px solid #ccc;
-    box-sizing: border-box;
-}
-form input[type="submit"] {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 50px;
-    cursor: pointer;
-}
-form input[type="submit"]:hover {
-    background-color: #0056b3;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
 }
