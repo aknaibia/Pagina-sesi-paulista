@@ -8,14 +8,14 @@ body {
 }
 
 .header {
-    background-color: #17b2e2;
+    background-color: #23b0db;
     text-align: center;
     padding: 100px;
     color: #000;
 }
 .content {
     display: flex;
-    padding: 5px;
+    padding: 15px;
 }
 .left {
     display: flex;
@@ -25,15 +25,15 @@ body {
     
 }
 .left p{
-    max-width: 70%;
+    max-width: 75%;
 }
 .right {
     text-align: right;
 }
 .footer {
-    background-color: #17b2e2;
+    background-color: #23b0db;
     text-align: center;
-    padding: 50px 0;
+    padding: 15px;
 }
 .quote {
     background-color: #000;
